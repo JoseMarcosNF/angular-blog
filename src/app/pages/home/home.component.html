@@ -2,20 +2,47 @@
 <header>
     <app-menu-bar></app-menu-bar>
 </header>
-
+<app-menu-title></app-menu-title>
 
 <div class="container_articles">
 
     <div class="articles-main">
 
-    <app-big-card></app-big-card>
+    <app-big-card
+    id="1" 
+    photoCover="https://encrypted-tbn0.gstatic.com/
+    images?q=tbn:ANd9GcQI4k-7QNbzdO-WRUqeeK6dCIvwQrWv_Xrr32At11AtUgklfZWAyrWAIfaMyDPWhQTsQZo&usqp=CAU"
+    cardTitle="Saiu a nova versão do Angular."
+
+    cardDescription="A versão mais recente do Angular, no momento desta tradução,
+     é a versão 16.1.2, de 21 de junho de 2023,
+      compatível com as versões 16.14.0 a 18.10.0 do NodeJS,
+       4.9.3 a 5.2.0 do TypeScript e 6.5.3 a 7.4.0 do RxJS.">  
+
+    </app-big-card>
 
     </div>
     <div class="articles-others">
 
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
-        <app-small-card></app-small-card>
+        <app-small-card
+         id="2" 
+         photoCover="https://media.seudinheiro.com/cdn-cgi/image/
+        fit=contain,width=715&,format=auto/uploads/2023/02/o-senhor-dos-aneis-715x402.jpg"
+        cardTitle="Warner Bros fecha acordo para lançar novos filmes de Senhor dos Anéis"
+        >
+        </app-small-card>
+
+        <app-small-card 
+        id="3" 
+        photoCover="https://windowsclub.com.br/wp-content/uploads/2023/08/baldurs-gate.jpg"
+        cardTitle="Baldur's Gate 3 se torna o jogo mais bem avaliado de todos os tempos para PC">
+        </app-small-card>
+
+        <app-small-card
+        id="4" 
+        photoCover="https://www.theenemy.com.br/webstories/xbox-compra-activision-aprovada/assets/2.jpg"
+        cardTitle="Xbox: Compra da Activision é aprovada. É OFICIAL!">
+        </app-small-card>
 
     </div>
 
